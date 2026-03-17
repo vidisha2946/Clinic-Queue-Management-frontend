@@ -76,7 +76,6 @@ export default function AdminUsersPage() {
           <p style={{ color: '#6b7280', fontSize: '0.85rem' }}>{users.length} users in your clinic</p>
         </div>
         <div>
-          <button className="btn-secondary" onClick={fetchUsers} style={{ marginRight: '0.5rem' }}>Sync API</button>
           <button className="btn-primary" onClick={() => setShowCreate(true)}>+ Create User</button>
         </div>
       </div>
